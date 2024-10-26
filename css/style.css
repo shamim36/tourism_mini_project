@@ -282,6 +282,9 @@
 
 .team-item img {
     transition: .5s;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
 }
 
 .team-item:hover img {
