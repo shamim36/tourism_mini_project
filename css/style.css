@@ -278,10 +278,19 @@
 /*** Team ***/
 .team-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text inside the container */
 }
 
 .team-item img {
     transition: .5s;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
 }
 
 .team-item:hover img {
